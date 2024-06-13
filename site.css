@@ -1,0 +1,214 @@
+*{margin: 0;
+    box-sizing: border-box;}
+    
+    body{
+    display: flex;
+    line-height: 1.7;
+    background-color: #000000;
+    }
+    
+    header { background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 13%;
+    position: sticky;
+    top: 0;
+    
+}
+    
+    main {background-image: url(img_9.jpg.webp);
+        width: 87%;
+        background-size: 100%;
+      
+    }
+    
+    #welcome{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 50%);
+        
+    }
+    
+    #welcome p {
+        width: 80%;
+    }
+    
+    #welcometres{
+        font-size: 1.50rem;
+        font-weight: 150;
+        text-align: center ;
+        align-items: center;
+        font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+         "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+        color: aliceblue;
+    
+    }
+    
+    #welcomedois{
+        color: #fff;
+        font-family: "Oswald", arial, sans-serif;
+        text-align: center;
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #btn{
+        color: #fff;
+        background-color: #df0e62;
+        border-color: #df0e62;
+        border-radius: 50px;
+        padding: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: .1em;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    #btn:hover{color: #000000;}
+    
+    #photo{
+        font-size: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin: 30px;
+        line-height: 3.0;
+    }
+
+    #photo:hover{color: #df0e62;}
+
+    #home{
+        color: white;
+        cursor: pointer;   
+        text-align: left; 
+        color: #fff;
+        font-size: .8rem;
+        margin: 30px;
+        font-family: sans-serif;
+        line-height: 1.30;
+    }
+
+    #home:hover{ color: #df0e62;}
+
+    #fotos{
+        color: white; 
+        cursor: pointer;  
+        text-align: left;
+        font-size: .8rem;
+        margin: 30px;
+        font-family: sans-serif;
+        line-height: 1.15;
+    }
+
+    #fotos:hover{ color: #df0e62;}
+    
+    #biography{
+        color: white;  
+        cursor: pointer;   
+        text-align: left;
+        font-size: .8rem;
+        margin: 30px;
+        font-family: sans-serif;
+        line-height: 1.15;
+    }
+
+    #biography:hover{ color: #df0e62;}
+    
+    #blog{
+        color: white;   
+        cursor: pointer;  
+        text-align: left;
+        font-size: .8rem;
+        margin: 30px;
+        font-family: sans-serif;
+        line-height: 1.15;
+    }
+
+    #blog:hover{ color: #df0e62;}
+    
+    #contact{
+        color: white;
+        cursor: pointer;  
+        text-align: left;
+        font-size: .8rem;
+        margin: 30px;
+        font-family: sans-serif;
+        line-height: 1.75;
+    }
+
+    #contact:hover{ color: #df0e62;}
+    
+    svg{
+        line-height: 1.3px;
+        height: 20px;
+        fill: white;
+        margin: 30px 20px;
+    }
+    
+    
+    svg:hover{
+        fill: #df0e62;
+    }
+    
+.imagem1{
+    width: 32.8%;
+    height: 300px;
+    margin: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    object-fit: cover;
+    background-color: transparent;
+    background: #000;
+
+}
+
+.imagem1:hover{ 
+    filter: brightness(0.4);
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 50%)}
+
+.preto{
+    background-color: #000;
+ }
+
+ .mainddois{
+    width: 87%;
+    background-size: 100%;
+    background-color: #000; 
+ }
+
+ .testimonial{
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1em;
+    font-family: "Oswald", arial, sans-serif;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    padding-left: 120px;
+    align-items: end;
+}
+
